@@ -1,0 +1,15 @@
+populator = "http://localhost:8080"
+scraper = "http://localhost:7963"
+extractor = "http://localhost:5000"
+
+bind_addr = "localhost:9876"
+
+# Uncomment (and configure) lines below to enable TLS
+# tls_private_key_file = "key.pem"
+# tls_cert_chain_file = "cert.pem"
+# tls_bind_addr = "localhost:9877"
+
+db_path = "db.sqlite"
+db_threads = 3
+max_song_size = 31457280 # 30 MiB
+max_songs_to_train = 20

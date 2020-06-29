@@ -1,0 +1,6 @@
+CREATE TABLE users (
+    id INTEGER NOT NULL PRIMARY KEY,
+    login TEXT NOT NULL,
+    hash TEXT NOT NULL,
+    role TEXT NOT NULL
+)
